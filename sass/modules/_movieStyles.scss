@@ -1,4 +1,138 @@
-//Hook movies at the top 
+//videoplayer
+
+.track {
+  margin-bottom: 150px;
+  display: absolute;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.video {
+  width: 100%;
+}
+
+.c-video {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c-video:hover .controls{
+  transform: translateY(0);
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+  background-color: rgba(0,0,0,0.7);
+  transform: translateY(100%) translateY(-20px);
+  transition: all 0.2s;
+
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.buttons button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.buttons #play-pause:before {
+  content: '\f144';
+  font-family: 'Font Awesome 5 free';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buttons #play-pause.play:before {
+  content: '\f144';
+}
+
+.buttons #play-pause.pause:before {
+  content: '\f28b';
+}
+
+.buttons #comment:before {
+  content: '\f144';
+  font-family: 'Material Icons';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buttons #like:before {
+  content: '\f144';
+  font-family: 'Material Icons';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buttons #share:before {
+  content: '\f144';
+  font-family: 'Material Icons';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#btnComment {
+  color: white;
+  padding: 10px;
+}
+
+#btnLike {
+  color: white;
+  padding: 5px;
+}
+
+#btnShare {
+  color: white;
+  padding: 5px;
+}
+
+.purple-bar {
+  height: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.purple-roku {
+  height: 10px;
+  background-color: $roku-purple;
+}
+
+//Hook movies at the top or trailers
 
  .show-movie { max-height: 800px; }
 
