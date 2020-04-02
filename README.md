@@ -44,4 +44,8 @@ MIT
 
 ## Acknowledgments
 
+Accessibility Standards Online:
 https://www.w3.org/WAI/standards-guidelines/wcag/
+
+To convert mp4s to VTT:
+https://www.vtt-creator.com/editor
