@@ -18,37 +18,27 @@
 <body>
   <main id="app">
     <header class="col-sm-12 fixed-top">
-      <a>
+      <a href="/index.html">
       <img src="images/flashback-logo.svg" alt="Roku logo" href="/index.html">
       </a>
-      <nav class="float-right">
-      <ul>
-  
-        <li v-if="authenticated"><i class="fas fa-user-circle"></i></li>
-        <li v-if="administrator"><i class="fas fa-cog"></i></li>
-        <li v-if="authenticated" v-on:click="logout()"><i class="fas fa-power-off"></i></li>					
-      </ul>
-      </nav>
-    </header>
-    </section>
+   </header>
 
     <div class="content-gallery">
     <h1>Movies</h1>
-
+ 
     <ul class="video-poster-wrapper">
       <li v-for="movie in videodata">
+       
         <a :href="movie.vidsource" @click.prevent="showMovieDetails(movie)">
+          <a href="/mediaplayerMovie.html">
           <img class="poster" :src="'images/' + movie.thumb" alt="movie poster">
+        </a>
         </a>
       </li>
     </ul>
    
-      
-      </li>
-    </ul>
 
   </div>
-    <div class="up-arrow"><span>^</span></div>
   </main>
 
   <footer>

@@ -21,16 +21,8 @@
       <a href="/index.html">
       <img src="images/flashback-logo.svg" alt="Roku logo" >
       </a>
-      <nav class="float-right">
-      <ul>
-         
-        <li v-if="authenticated"><i class="fas fa-user-circle"></i></li>
-        <li v-if="administrator"><i class="fas fa-cog"></i></li>
-        <li v-if="authenticated" v-on:click="logout()"><i class="fas fa-power-off"></i></li>					
-      </ul>
-      </nav>
     </header>
-    </section>
+
     
     <div class="content-gallery">
     <h1>Shows</h1>
@@ -38,13 +30,14 @@
     <ul class="video-poster-wrapper">
       <li v-for="movie in videodata">
         <a :href="movie.vidsource" @click.prevent="showMovieDetails(movie)">
+          <a href="/mediaplayerShow.html">
           <img class="poster" :src="'images/' + movie.thumb" alt="movie poster">
+          </a>
         </a>
       
       </li>
     </ul>
    
-      
       </li>
     </ul>
   </div>
@@ -56,7 +49,7 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>
   <script defer src="js/main.js"></script>
-  <script defer src="js/video.js"></script>
+  <script defer src="js/show.js"></script>
 </body>
 
 </html>
