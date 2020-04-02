@@ -15,8 +15,6 @@ var vm = new Vue({
     // this data would also come from the database, but we'll just mock it up for now
     videodata: [
       { name: "Pulp Fiction", thumb: "pulpfiction.jpg", vidsource: "pulpfiction.mp4", description: "A Quentin Tarantino Classic." },
-      { name: "Titanic", thumb: "titanic.jpg", vidsource: "titanic.mp4", description: "Rose falls in love with an artist by the name of Jack." },
-      { name: "Forest Gump", thumb: "forestgump.jpg", vidsource: "forestgump.mp4", description: "Run Forest, Run! A classic Tom Hanks film for the family." }
     ],
 
     videotitle: "video title goes here",
