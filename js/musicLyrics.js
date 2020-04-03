@@ -1,14 +1,17 @@
 const ap = new APlayer({
     container: document.getElementById('#myplayer'),
-    // showlrc: 0,     
+    showlrc: 1,     
     theme: '#6C3C97',                                            
     music: {
         title: 'Bye Bye Bye',
         author: 'Nsync',
         pic: 'images/nsync.jpg',
         url: 'music/nsync.mp3',
-        lrc: '[00:00.00]APlayer00:04.01]is\n[00:08.02]amazing'
-    }
+        lrc: '[00:00.00] Nsync \n[00:22.91] Bye bye bye\n[00:29.31] [00:29.52] Bye bye bye\n[00:35.72] [00:35.90]I am doing this tonight\n[00:38.50][00:38.71]You are probably gona start a fight\n[00:41.31][00:41.51]I know this can′t be right \n[00:44.11] [00:44.30]Hey baby come on\n [00:46.90][00:47.12]I loved you endlessly \n[00:49.62][00:49.81]When you weren′t there for me\n [00:52.41][00:52.60]So now It is time to leave and make it alone \n[00:58.00][00:58.21]I know that I can′t take no more \n[01:01.40][01:01.62]It ain′t no lie \n[01:03.52] [01:03.71]I want to see you out that door \n[01:06.71] [01:06.91]Baby bye bye bye\n[01:08.21][01:08.40]Bye bye Don′t want to be a fool for you \n[01:11.30] [01:11.51]Just another player in your game for two\n[01:14.71] [01:14.91]You may hate me but it ain′t no lie \n[01:17.81] [01:18.01]Baby bye bye bye \n[01:19.41][01:19.62]Bye bye\n [01:20.61] [01:20.40]Don′t want to make it tough\n[01:22.30] [01:22.51]I just want to tell you that I have had enough \n[01:25.80]  [01:26.01]It might sound crazy but it ain′t no lie \n [01:28.91]  [01:29.11]Baby bye bye bye \n[01:34.10] [01:34.30]You just hit me with the truth \n[01:36.90]  [01:37.12]Now girl You are more than welcome to \n[01:39.72] [01:39.90]So give me one good reason \n[01:43.20][01:43.40]Baby come on \n[01:45.20][01:45.40]I have lived for you and me\n[01:48.00] [01:48.21]And now I really come to see \n[01:50.71][01:50.91]That life would be much better once You are gone\n[01:58.91] [01:59.21]I know that I can′t take no more \n[02:02.11] [02:02.30]Ain′t no lie  \n[02:04.50] [02:04.71]I want to see you out that door \n[02:07.70] [02:07.90]Baby bye bye bye \n[02:09.20] [02:09.41]Bye bye Don′t want to be a fool for you   \n[02:12.11] [02:12.31]Just another player in your game for two \n[02:15.61]  [02:15.80]You may hate me but it ain′t no lie \n[02:18.70] [02:18.91]Baby bye bye bye  \n[02:20.31][02:20.51]Bye bye \n[02:21.51] [02:21.22]Don′t want to make it tough \n[02:23.22] [02:23.40]I just want to tell you that I have had enough \n[02:26.00] [02:26.20]It might sound crazy but it ain′t no lie \n[02:30.00] [02:30.20]Baby bye bye bye \n[02:35.20] [02:35.41]I am givng up I know for sure \n[02:37.11] [02:37.30]don′t′ want to be the reason for your love no more \n[02:39.90]  [02:40.12]Bye bye \n[02:41.12] [02:40.50]I am checking out‚ I am signing off \n[02:42.40]  [02:42.61]I Don′t want to be the loser and I have had enough \n[02:46.71] [02:46.91]I Don′t want to be your fool in this game for two  \n[02:53.21] [02:53.40]So I am leaving you behind  \n[03:01.40] [03:05.92]I don′t want to make it tough\n[03:08.41] [03:08.60](Make it tough) \n[03:09.80][03:10.01]But I have had enough \n[03:11.71] [03:11.91]And it ain′t no lie \n[03:14.81] [03:15.01]Bye bye Don′t want to be a fool for you \n[03:17.51] [03:17.70]Just another player in your game for two \n[03:20.60] [03:20.81]You may hate me but it ain′t no lie \n[03:24.51] [03:24.71]Baby bye bye bye \n[03:25.91] [03:26.10]Bye bye \n[03:27.10] [03:26.81]Don′t want to make it tough  \n[03:28.91]  [03:29.11]I just want to tell you that I have had enough \n[03:31.71]   [03:31.92]It might sound crazy but it ain′t no lie  \n[03:35.72]  [03:35.91]Baby bye bye bye \n[03:37.71][03:37.90]Don′t want to make it tough \n[03:40.10] [03:40.31]I just want to tell you that I have had enough\n[03:42.91]  [03:43.10]It might sound crazy but it ain′t no lie \n[03:51.10]  [03:55.71]Baby bye bye bye  \n[04:00.71] [04:01.71]\n [04:10.71]aplayer'
+
+    },
+
 });
 
 
+// '[00:00.00]line 0: APlayer [00:04.01]line 1: is\n[00:08.02]line 2: amazing'

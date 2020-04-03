@@ -15,7 +15,6 @@ var vm = new Vue({
     // this data would also come from the database, but we'll just mock it up for now
     videodata: [
       { name: "Nsync", thumb: "nsync.jpg", vidsource: "scoobydoo.mp4", description: "Bye.Bye.Bye." },
-      { name: "Jimi hendrix", thumb: "jimihendrix.jpg", vidsource: "pulpfiction.mp4", description: "Are you Experienced?" }
     ],
 
     videotitle: "video title goes here",
