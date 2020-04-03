@@ -1,3 +1,35 @@
+
+//audioplayer
+
+.audioLyrics {
+  overflow: scroll;
+}
+
+p {
+  padding: 25px;
+}
+
+.aplayer-info {
+  background-color: white;
+}
+
+#myplayer {
+  margin: 50px;
+  margin-top: 100px;
+}
+
+.aplayer-title {
+  color: $roku-purple;
+}
+
+
+.audioLyrics {
+  background-color: white;
+  height: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 //videoplayer
 
 .track {
